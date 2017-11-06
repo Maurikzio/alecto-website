@@ -1,6 +1,122 @@
-.navbar-collapse {
+body {
+  font-family: 'Raleway';
+}
+.home {
+  background: url("../images/alectoHomeBackground.png") center center;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  position: relative;
+}
+.home .theBanner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+.home .container {
+  z-index: 999;
+}
+.home .container .navbar {
+  padding-top: 20px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.home .container .navbar .navbar-brand {
+  padding-left: 0;
+  margin-left: 0;
+}
+.home .container .navbar .navbar-collapse {
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+.home .container .navbar .navbar-collapse .navbar-nav .nav-item {
+  margin-left: 30px;
+}
+.home .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.home .container .headerContent {
+  text-align: center;
+  margin-top: 10%;
+  font-family: "Proxima Nova";
+}
+.home .container .headerContent h1 {
+  font-family: 'Raleway-Thin';
+  color: #ffffff;
+  font-size: 60px;
+}
+.home .container .headerContent h1 span {
+  font-family: 'Nova';
+  letter-spacing: 1.5px;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.home .container .headerContent p {
+  font-family: 'Raleway';
+  letter-spacing: 0.6px;
+  font-weight: 300;
+  font-size: 24px;
+}
+.home .container .headerContent button {
+  background: none;
+  border-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  font-weight: bolder;
+  font-family: 'Raleway';
+  padding: 19px 50px;
+  cursor: pointer;
+  margin-top: 80px;
+}
+.home .getMore {
+  position: absolute;
+  bottom: 10px;
+  left: 49%;
+  text-align: center;
+  -webkit-animation: goDown 1s infinite;
+          animation: goDown 1s infinite;
+}
+.home .getMore a {
+  color: #fff;
+  font-size: 50px;
+}
+@-webkit-keyframes goDown {
+  0%,
+  100% {
+    bottom: 10px;
+  }
+  50% {
+    bottom: 5px;
+  }
+}
+@keyframes goDown {
+  0%,
+  100% {
+    bottom: 10px;
+  }
+  50% {
+    bottom: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home .container .headerContent h1 {
+    font-size: 30px;
+  }
+  .home .container .headerContent h1 span {
+    font-size: 40px;
+    display: block;
+  }
+  .home .container .headerContent button {
+    margin-top: 50px;
+  }
 }
