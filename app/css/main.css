@@ -242,3 +242,58 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
+.opinions {
+  background: url('../images/opinionsBackground.png') center center no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  margin-bottom: 100px;
+}
+.opinions .mySlider {
+  position: relative;
+  -webkit-animation: none;
+          animation: none;
+}
+.opinions .mySlider .carousel {
+  padding: 10px 0 100px 0;
+  position: relative;
+}
+.opinions .mySlider .carousel .indicator-carousel {
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  left: 48%;
+  bottom: 10px;
+}
+.opinions .mySlider .carousel .indicator-carousel li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.opinions .mySlider .carousel .indicator-carousel li span {
+  font-size: 10px;
+}
+.opinions .mySlider .carousel .carousel-inner .carousel-item img {
+  margin: 0 auto;
+  display: block;
+}
+.opinions .mySlider .carousel .carousel-inner .carousel-item .slider-info {
+  margin-top: 20px;
+  border: 1px dashed black;
+}
+.opinions .mySlider .carousel .carousel-inner .carousel-item .slider-info h3 {
+  font-family: 'Raleway';
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+}
+.opinions .mySlider .carousel .carousel-inner .carousel-item .slider-info h3 span {
+  color: #17daa3;
+  letter-spacing: 0.75px;
+}
+.opinions .mySlider .carousel .carousel-inner .carousel-item .slider-info p {
+  font-size: 18px;
+  opacity: 0.5;
+  font-weight: 300;
+}
