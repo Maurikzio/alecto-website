@@ -120,3 +120,125 @@ body {
     margin-top: 50px;
   }
 }
+.aboutUs {
+  padding: 110px 0;
+}
+.aboutUs .aboutUsTitle {
+  border: 1px dashed black;
+  padding-bottom: 70px;
+}
+.aboutUs .aboutUsTitle h2 {
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: 200;
+}
+.aboutUs .aboutUsTitle p {
+  font-size: 18px;
+  font-family: 'Nova';
+}
+.aboutUs .aboutUsMainContent {
+  border: 1px dashed red;
+  padding: 70px 0;
+  background: white;
+}
+.aboutUs .aboutUsMainContent .aboutUsMainContentList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.aboutUs .aboutUsMainContent .aboutUsMainContentList .aboutUsMainContentItem a {
+  text-decoration: none;
+  background-color: rgba(135, 149, 159, 0.07);
+  padding: 37px 37px;
+  display: inline-block;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+}
+.aboutUs .aboutUsMainContent .aboutUsMainContentList .aboutUsMainContentItem .theSelected {
+  background-color: #17daa3;
+}
+.aboutUs .aboutUsMainContent .aboutUsMainContentList .aboutUsMainContentItem h3 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.aboutUs .aboutUsMainContent .aboutUsMainContentList .aboutUsMainContentItem p {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 18px;
+  font-family: 'Nova';
+}
+.aboutUs .aboutUsBottom {
+  padding-top: 70px;
+  border: 1px dashed orange;
+}
+.aboutUs .aboutUsBottom button {
+  background-color: #17daa3;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  border: 2px solid #ffffff;
+  padding: 19px 50px;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+.photo {
+  background-color: rgba(135, 149, 159, 0.07);
+  font-family: 'Raleway';
+  padding: 110px 60px;
+}
+.photo h2 {
+  color: #576671;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+.photo p {
+  font-family: "Nova";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.45px;
+}
+.photo button {
+  background-color: #17daa3;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  border: 2px solid #ffffff;
+  padding: 19px 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+.mac {
+  font-family: 'Raleway';
+  padding: 110px 60px;
+}
+.mac h2 {
+  color: #576671;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+.mac p {
+  font-family: "Nova";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.45px;
+}
+.mac button {
+  background-color: #17daa3;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  border: 2px solid #ffffff;
+  padding: 19px 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
