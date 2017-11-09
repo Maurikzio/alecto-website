@@ -123,16 +123,16 @@ body {
 .aboutUs {
   padding: 110px 0;
 }
-.aboutUs .aboutUsTitle {
+.aboutUs .aboutUsHeader {
   border: 1px dashed black;
   padding-bottom: 70px;
 }
-.aboutUs .aboutUsTitle h2 {
+.aboutUs .aboutUsHeader h2 {
   font-family: 'Raleway';
   font-size: 60px;
   font-weight: 200;
 }
-.aboutUs .aboutUsTitle p {
+.aboutUs .aboutUsHeader p {
   font-size: 18px;
   font-family: 'Nova';
 }
@@ -247,7 +247,7 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   color: white;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 .opinions .mySlider {
   position: relative;
@@ -259,6 +259,7 @@ body {
   position: relative;
 }
 .opinions .mySlider .carousel .indicator-carousel {
+  display: inline-block;
   text-align: center;
   padding: 0;
   position: absolute;
@@ -277,6 +278,8 @@ body {
 .opinions .mySlider .carousel .carousel-inner .carousel-item img {
   margin: 0 auto;
   display: block;
+  max-width: 104px;
+  height: auto;
 }
 .opinions .mySlider .carousel .carousel-inner .carousel-item .slider-info {
   margin-top: 20px;
@@ -296,4 +299,56 @@ body {
   font-size: 18px;
   opacity: 0.5;
   font-weight: 300;
+}
+.ourServices {
+  margin-top: 0px;
+  background: #f7f8f9;
+}
+.ourServices .ourServicesHeader h1 {
+  font-family: "Raleway";
+  color: #87949e;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 60px;
+  letter-spacing: 1.5px;
+}
+.ourServices .ourServicesHeader p {
+  font-family: "Nova";
+  color: #87949e;
+  font-size: 18px;
+  font-weight: 100;
+}
+.ourServices .ourServicesContent {
+  padding: 0;
+}
+.ourServices .ourServicesContent .servicesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ourServices .ourServicesContent .servicesList .servicesItem .itemIcon .theImg {
+  background: #ffffff;
+  padding: 15px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  display: inline-block;
+}
+.ourServices .ourServicesContent .servicesList .servicesItem .itemIcon .theImg img {
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+}
+.ourServices .ourServicesContent .servicesList .servicesItem .itemInfo h2 {
+  font-size: 50px;
+  font-family: 'Raleway';
+  color: #576671;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+}
+.ourServices .ourServicesContent .servicesList .servicesItem .itemInfo P {
+  font-family: "Nova";
+  line-height: 47.91px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #87949e;
 }

@@ -131,7 +131,7 @@ body{
 
 .aboutUs{
 padding: 110px 0;
-    .aboutUsTitle{
+    .aboutUsHeader{
         border: 1px dashed black;
         padding-bottom: 70px;
         h2{
@@ -266,11 +266,8 @@ padding: 110px 0;
     padding-top:100px;
     padding-bottom:100px;
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     .mySlider{
-        // background: red;
-        // padding-top: 60px;
-        // padding-bottom: 60px;
         position: relative;
         animation: none;
         .carousel{
@@ -279,6 +276,7 @@ padding: 110px 0;
             position: relative;
             .indicator-carousel{
                 // background: green;
+                display: inline-block;
                 text-align: center;
                 padding: 0;
                 position: absolute;
@@ -302,6 +300,8 @@ padding: 110px 0;
                         margin: 0 auto;
                         display: block;
                         // border: 1px dashed green;
+                        max-width: 104px;
+                        height: auto;
 
                     }
                     .slider-info{
@@ -325,6 +325,71 @@ padding: 110px 0;
                         }
 
                     }
+                }
+            }
+        }
+    }
+}
+.ourServices{
+    margin-top: 0px;
+    // padding: 50px 0;
+    background: #f7f8f9;
+    .ourServicesHeader{
+        h1{
+            font-family: "Raleway";
+            color: #87949e;
+            text-transform: capitalize;
+            font-weight: 200;
+            font-size: 60px;
+            letter-spacing: 1.5px;
+        }
+        p{
+            font-family: "Nova";
+            color: #87949e;
+            font-size: 18px;
+            font-weight: 100;
+            
+        }
+    }
+    .ourServicesContent{
+        padding: 0;            
+        //ul
+        .servicesList{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            //li
+            .servicesItem{
+                .itemIcon{
+                    // background: grey;   
+                    .theImg{
+                        background: #ffffff;
+                        padding: 15px;
+                        border-radius: 50%; 
+                        display: inline-block;              
+                        img{
+                            padding:0;
+                            cursor: pointer;
+                            width: 100%;
+                        }             
+                    }
+                }
+                .itemInfo{
+                    h2{
+                        font-size: 50px;
+                        font-family: 'Raleway';
+                        color: #576671;
+                        letter-spacing: 1.5px;
+                        font-weight: 200;
+                    }    
+                    P{
+                        font-family: "Nova";
+                        line-height: 47.91px;
+                        font-weight: 200;
+                        font-size: 18px;
+                        color: #87949e;
+                    }                    
                 }
             }
         }
